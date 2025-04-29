@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".total").textContent = `${total} $`;
     }
   
-    // Increase quantity
+    // Increase the quantity
     plusButtons.forEach((btn) => {
       btn.addEventListener("click", function () {
         const quantitySpan = this.nextElementSibling;
